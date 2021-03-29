@@ -1,0 +1,154 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Helvetica", sans-serif;
+}
+
+body {
+  background: center / cover no-repeat url(./images/berge.jpg);
+}
+
+header {
+  margin: 0 auto;
+  padding-top: 10rem;
+  font-size: 40px;
+  text-align: center;
+  color: #037399;
+}
+
+h2 {
+  color: #8bafbe;
+}
+
+/* <!-- section 1 --> */
+
+main {
+  background-image: linear-gradient(
+    to bottom,
+    #b9d9e4,
+    #93bfd0,
+    #6ea5bd,
+    #468cab,
+    #037399
+  );
+  border-radius: 20px;
+  padding: 5rem;
+  max-width: 70%;
+
+  margin-top: 100px;
+  padding-bottom: 100px;
+}
+
+.imageBox {
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.avatar {
+  width: 32rem;
+  height: 39rem;
+  display: block;
+  object-fit: cover;
+  margin: 0 auto;
+
+  border-radius: 8px;
+}
+
+h3 {
+  padding-top: 2rem;
+}
+
+/* end of section 1 */
+
+/* section 2 */
+
+.timeline {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 3rem;
+  font-size: 20px;
+}
+
+li a {
+  color: #fdfdfd;
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+  padding-bottom: 10px;
+}
+
+span {
+  background-color: #b9d9e4;
+  padding: 3px;
+}
+
+aside {
+  width: 75%;
+  margin: 8rem auto;
+
+  font-size: 18px;
+  background-color: #b9d9e4;
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+/* end of section 2 */
+
+/* section 3 -  Scrolling/ Books */
+
+.works {
+  font-family: Lucida serif;
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+  padding: 1rem;
+  margin: 0 auto;
+
+  border-radius: 8px;
+  max-width: 80%;
+}
+
+.books {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 22%;
+  height: 400px;
+  margin-bottom: 4rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  padding: 1rem;
+  border: 1px solid rgb(255, 255, 255);
+  color: aliceblue;
+  border-radius: 5px;
+
+  overflow-x: hidden;
+}
+
+.booksImg {
+  width: 100%;
+  height: auto;
+}
+
+/* end of section 3 - Scrolling/Books */
+
+footer {
+  width: 100%;
+  height: 80px;
+  text-align: center;
+  padding-top: 30px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #93bfd0;
+}
+
+footer a:hover {
+  color: yellow;
+}
